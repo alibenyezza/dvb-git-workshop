@@ -8,7 +8,7 @@ Thanks for coming! Everything we saw together is here, with the official documen
 | | |
 |---|---|
 | 🖥️ **The slides** | [slides.pdf](slides.pdf) (27 slides) |
-| 📄 **The cheat sheet** | [cheatsheet.pdf](cheatsheet.pdf) (2 pages, print it or keep it open while you code) |
+| 📄 **The Git & GitHub cheat sheet** | [cheatsheet.pdf](cheatsheet.pdf) (3 pages: every command, then videos, games, docs and certification) |
 | ⚙️ **The CI/CD & GitHub Actions cheat sheet** | [cicd-cheatsheet.pdf](cicd-cheatsheet.pdf) (2 pages: pipelines, workflow syntax, security, videos, courses, certifications) |
 | 🧱 **The Builders Wall** | https://alibenyezza.github.io/dvb-git-workshop/ |
 | 🛠️ **The exercise guide** | [README of the repo](../README.md) (Lab 1, Lab 2, plan B, FAQ of the usual errors) |
@@ -88,6 +88,36 @@ No change reaches `main` without a Pull Request and a green check, and nobody ca
 5. **Try rebasing** on your own repo: `git rebase main` (never on a shared branch).
 6. **Put your portfolio online**: create a repo named `your-username.github.io` and turn on GitHub Pages ([guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)).
 7. **Create a conflict on purpose** in your Lab 1 repo and resolve it in VS Code.
+
+## Keep learning Git & GitHub
+
+Page 3 of the [cheat sheet](cheatsheet.pdf) gathers all of this. The links:
+
+**🎬 Watch**
+- [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE) · Fireship · the big picture in 2 minutes
+- [How Git Works: Explained in 4 Minutes](https://www.youtube.com/watch?v=e9lnsKot_SQ) · ByteByteGo · the 4 areas, visually
+- [Git and GitHub for Beginners, Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) · freeCodeCamp · everything we did at the workshop
+- [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE) · Programming with Mosh
+- [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc) · Traversy Media
+- [Git and GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=tRZGeaHPoaw) · Kevin Stratvert · with VS Code and GitHub Desktop
+- [Version Control (git)](https://www.youtube.com/watch?v=2sjqTHE0zok) · MIT Missing Semester · how Git works inside
+- [Git for Professionals](https://www.youtube.com/watch?v=Uszj_k0DGsg) · freeCodeCamp · rebase, cherry-pick, reflog, branching strategies
+- [13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o) · Fireship
+
+**🎮 Play & visualise (free)**
+- [Learn Git Branching](https://learngitbranching.js.org/) · [Oh My Git!](https://ohmygit.org/) (a card game) · [Visualizing Git](https://git-school.github.io/visualizing-git/)
+
+**🧪 Learn by doing (free)**
+- [GitHub Skills](https://skills.github.com/): [Introduction to GitHub](https://github.com/skills/introduction-to-github), [Review pull requests](https://github.com/skills/review-pull-requests), [Resolve merge conflicts](https://github.com/skills/resolve-merge-conflicts)
+- [First Contributions](https://github.com/firstcontributions/first-contributions): your first open-source PR, guided · [Good First Issue](https://goodfirstissue.dev/): beginner-friendly issues in real projects
+
+**📖 Read**
+- [Atlassian Git tutorials](https://www.atlassian.com/git/tutorials) · [Missing Semester: version control](https://missing.csail.mit.edu/2020/version-control/) · [Git reference](https://git-scm.com/docs)
+- When things go wrong: [Oh Shit, Git!?!](https://ohshitgit.com/) · [Git Flight Rules](https://github.com/k88hudson/git-flight-rules)
+- [GitHub's official Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+**🧰 Tools**
+- [VS Code Source Control](https://code.visualstudio.com/docs/sourcecontrol/overview) · [GitHub Desktop](https://desktop.github.com/) · [GitHub CLI](https://cli.github.com/)
 
 ## Go further with CI/CD & GitHub Actions
 
