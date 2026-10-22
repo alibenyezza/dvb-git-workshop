@@ -13,6 +13,8 @@ an emoji and a message) shows up on the site as soon as your Pull Request is mer
 
 🌐 **The live wall:** https://alibenyezza.github.io/dvb-git-workshop/
 
+📚 **After the workshop:** the slides, the cheat sheet and the documentation for every part → [resources/](resources/)
+
 ```
 fork → clone → branch → your card → commit → push → Pull Request → ✅ check → merge → 🚀 live
 ```
