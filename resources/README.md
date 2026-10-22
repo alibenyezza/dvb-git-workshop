@@ -9,6 +9,7 @@ Thanks for coming! Everything we saw together is here, with the official documen
 |---|---|
 | 🖥️ **The slides** | [slides.pdf](slides.pdf) (27 slides) |
 | 📄 **The cheat sheet** | [cheatsheet.pdf](cheatsheet.pdf) (2 pages, print it or keep it open while you code) |
+| ⚙️ **The CI/CD & GitHub Actions cheat sheet** | [cicd-cheatsheet.pdf](cicd-cheatsheet.pdf) (2 pages: pipelines, workflow syntax, security, videos, courses, certifications) |
 | 🧱 **The Builders Wall** | https://alibenyezza.github.io/dvb-git-workshop/ |
 | 🛠️ **The exercise guide** | [README of the repo](../README.md) (Lab 1, Lab 2, plan B, FAQ of the usual errors) |
 
@@ -87,6 +88,42 @@ No change reaches `main` without a Pull Request and a green check, and nobody ca
 5. **Try rebasing** on your own repo: `git rebase main` (never on a shared branch).
 6. **Put your portfolio online**: create a repo named `your-username.github.io` and turn on GitHub Pages ([guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)).
 7. **Create a conflict on purpose** in your Lab 1 repo and resolve it in VS Code.
+
+## Go further with CI/CD & GitHub Actions
+
+Everything is summed up in the [CI/CD & GitHub Actions cheat sheet](cicd-cheatsheet.pdf). The links:
+
+**🎬 Watch**
+- [GitHub Actions Tutorial: basic concepts and CI/CD pipeline with Docker](https://www.youtube.com/watch?v=R8_veQiYBjI) · TechWorld with Nana · 32 min
+- [GitHub Actions: from Zero to Hero in 90 minutes](https://www.youtube.com/watch?v=TLB5MY9BBa4) · CoderDave · environments, secrets, runners
+- [Complete GitHub Actions Course: from beginner to pro](https://www.youtube.com/watch?v=Xwpi0ITkL3U) · DevOps Directive
+- [5 Ways to DevOps-ify your App](https://www.youtube.com/watch?v=eB0nUzAI7M8) · Fireship · short
+- [GitHub Actions Certification: full course](https://www.freecodecamp.org/news/pass-the-github-actions-certification-exam/) · freeCodeCamp · ≈ 3 h, prep for the GH-200 exam
+
+**🧪 Learn by doing (free)**
+- [GitHub Skills](https://skills.github.com/): [Hello GitHub Actions](https://github.com/skills/hello-github-actions), [Test with Actions](https://github.com/skills/test-with-actions), [Reusable workflows](https://github.com/skills/reusable-workflows), [Publish packages](https://github.com/skills/publish-packages), [Write JavaScript actions](https://github.com/skills/write-javascript-actions)
+- [Microsoft Learn: Automate your workflow with GitHub Actions](https://learn.microsoft.com/en-us/training/paths/automate-workflow-github-actions/) (official GH-200 learning path)
+- [Microsoft Learn: GitHub Foundations](https://learn.microsoft.com/en-us/training/paths/github-foundations/) (official GH-900 learning path)
+
+**📖 Docs**
+- [Quickstart](https://docs.github.com/en/actions/writing-workflows/quickstart) · [Workflow syntax](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions) · [Events that trigger workflows](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows)
+- [Secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions) · [Environments](https://docs.github.com/en/actions/deployment/targeting-different-environments/managing-environments-for-deployment) · [Matrix](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/running-variations-of-jobs-in-a-workflow) · [Caching](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/caching-dependencies-to-speed-up-workflows)
+- [Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions)
+- [Actions Marketplace](https://github.com/marketplace?type=actions) · [Starter workflows](https://github.com/actions/starter-workflows) · [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates)
+- Tools: [actionlint](https://rhysd.github.io/actionlint/) (finds errors in your workflows) · [act](https://github.com/nektos/act) (runs them locally)
+- Concepts: [Continuous Integration, by Martin Fowler](https://martinfowler.com/articles/continuousIntegration.html) · [CI vs Continuous Delivery vs Continuous Deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) · [DevOps roadmap](https://roadmap.sh/devops)
+
+**🎓 Get certified**
+
+| Exam | Certification | Level |
+|---|---|---|
+| GH-900 | [GitHub Foundations](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/) | Start here · **free for verified students** |
+| GH-200 | [GitHub Actions](https://learn.microsoft.com/en-us/credentials/certifications/github-actions/) | Intermediate · CI/CD |
+| GH-300 | [GitHub Copilot](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/) | AI-assisted coding |
+| GH-500 | [GitHub Advanced Security](https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/) | Secure code |
+| GH-100 | [GitHub Administration](https://learn.microsoft.com/en-us/credentials/certifications/github-administration/) | Admins |
+
+> **Students:** verify your status on [GitHub Education](https://education.github.com/pack), then claim a free GitHub Foundations voucher from the Student Developer Pack, while supplies last ([details](https://education.github.com/experiences/foundations_certificate)). Exams are booked on Microsoft Learn (Pearson VUE, online), and each certification page has a free practice assessment.
 
 ## Go further
 
