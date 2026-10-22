@@ -3,10 +3,11 @@
 [![deploy](https://github.com/alibenyezza/dvb-git-workshop/actions/workflows/deploy.yml/badge.svg)](https://github.com/alibenyezza/dvb-git-workshop/actions/workflows/deploy.yml)
 
 > **From first commit to deployment** — the exercise repo of the Git & GitHub workshop by **DeVinci Blockchain**
-> (Thursday 22 October 2026, IIM – Digital School, Nanterre).
+> (held on Thursday 22 October 2026, IIM – Digital School, Nanterre).
 
-Tonight you will do what professional teams do every day: **fork** a project, create a **branch**,
-make a **commit**, open a **Pull Request**, pass an **automatic check**… and see your work **deployed online**.
+During the workshop, everyone did what professional teams do every day: **fork** a project, create a **branch**,
+make a **commit**, open a **Pull Request**, pass an **automatic check**… and see their work **deployed online**.
+Missed it, or want to do it again? Follow this guide at your own pace: the wall is still open.
 
 The project: a wall of participants, the **Builders Wall**. Your card (your GitHub avatar, your first name, your school,
 an emoji and a message) shows up on the site as soon as your Pull Request is merged.
@@ -24,8 +25,8 @@ fork → clone → branch → your card → commit → push → Pull Request →
 ## Contents
 
 - [0. Before you start](#0-before-you-start)
-- [Level 1 — Git on your laptop](#level-1--git-on-your-laptop-20-min)
-- [Level 2 — Your card on the wall](#level-2--your-card-on-the-wall-25-min)
+- [Level 1 — Git on your laptop](#level-1--git-on-your-laptop)
+- [Level 2 — Your card on the wall](#level-2--your-card-on-the-wall)
 - [Plan B — no terminal](#plan-b--no-terminal)
 - [Level 3 — Bonus](#level-3--bonus)
 - [FAQ — the usual errors](#faq--the-usual-errors)
@@ -56,9 +57,15 @@ git config --global core.editor "code --wait"         # VS Code as the editor in
 
 Check: `git config --global --list`
 
+> 🔒 **Keep your email private.** The email in `git config` is written into every commit, and anyone can read it on a public repo.
+> To hide it: on GitHub, **Settings → Emails** → tick **Keep my email addresses private**, copy the address shown
+> (`12345678+your-username@users.noreply.github.com`) and use it instead:
+> `git config --global user.email "12345678+your-username@users.noreply.github.com"`.
+> Your commits stay linked to your profile; only future commits are affected.
+
 ---
 
-## Level 1 — Git on your laptop (20 min)
+## Level 1 — Git on your laptop
 
 Goal: understand **commit**, **branch** and **merge**… and create a **conflict** on purpose to learn how to fix it.
 Everything happens on your laptop, in a new folder (not inside this repo).
@@ -126,7 +133,7 @@ git log --oneline --graph --all   # admire your graph 🌳
 
 ---
 
-## Level 2 — Your card on the wall (25 min)
+## Level 2 — Your card on the wall
 
 Everywhere below, replace `<your-username>` with **your GitHub username in lowercase** (e.g. `ada-lovelace`).
 
@@ -202,10 +209,10 @@ tick the checklist, then **Create pull request**.
 ### 7. Wait for the check ✅
 
 The **validate** check verifies your card automatically (≈ 20 s).
-- ✅ green: perfect, the host will merge it.
+- ✅ green: perfect, the maintainer will merge it.
 - ❌ red: click **Details**, read the message, fix your file, then `git commit -am "fix: my card"` and `git push`. The PR updates itself.
 
-> If the check says *"Waiting for approval"*, that is normal for a first contribution: the host approves it.
+> If the check says *"Waiting for approval"*, that is normal for a first contribution: the maintainer approves it.
 
 ### 8. Merge → live 🚀
 
@@ -230,9 +237,9 @@ You did exactly the same thing as with the terminal: fork, branch, commit, PR.
 
 ## Level 3 — Bonus
 
-Done early? Pick a challenge:
+Want to go further? Pick a challenge:
 
-1. **Review a PR** — open a neighbour's PR → **Files changed** tab → comment on a line → **Review changes → Approve**.
+1. **Review a PR** — open someone else's PR → **Files changed** tab → comment on a line → **Review changes → Approve**.
 2. **Put your Level 1 repo on GitHub**:
    ```bash
    cd my-first-repo

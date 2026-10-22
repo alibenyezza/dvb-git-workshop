@@ -38,7 +38,9 @@ One branch per task, and `main` stays clean. `git switch -c feature/x` creates a
 - 📖 [Trunk-based development](https://trunkbaseddevelopment.com/)
 
 ### 5 · Lab 1: your first repo
-`git init`, `add`, `commit`, `switch -c`, `merge`, `log --oneline --graph --all`: all the commands are in the [cheat sheet](cheatsheet.pdf) and in [Level 1 of the guide](../README.md#level-1--git-on-your-laptop-20-min).
+`git init`, `add`, `commit`, `switch -c`, `merge`, `log --oneline --graph --all`: all the commands are in the [cheat sheet](cheatsheet.pdf) and in [Level 1 of the guide](../README.md#level-1--git-on-your-laptop).
+
+> 🔒 **Your email is visible in your commits.** On a public repo, anyone can read the email from your `git config`. To hide it in future commits, use your GitHub *noreply* address: [Setting your commit email address](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address).
 
 ### 6 · Merge conflicts
 Two branches changed the same line: Git asks you to choose. Open the file, keep the right version, delete the markers `<<<<<<<` `=======` `>>>>>>>`, then `git add` and `git commit`. Panic button: `git merge --abort`.
